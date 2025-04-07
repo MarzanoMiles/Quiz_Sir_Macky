@@ -70,13 +70,13 @@ let score = 0;
 let timer;
 switch (level) {
     case "easy":
-        timer = 3 * 60; // 3 minutes
+        timer = 2 * 60; // 3 minutes
         break;
     case "medium":
-        timer = 4 * 60; // 4 minutes
+        timer = 3 * 60; // 4 minutes
         break;
     case "hard":
-        timer = 5 * 60; // 5 minutes
+        timer = 4 * 60; // 5 minutes
         break;
     default:
         timer = 60; // fallback to 1 minute
